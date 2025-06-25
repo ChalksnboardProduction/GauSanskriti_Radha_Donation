@@ -75,7 +75,7 @@ export default function GauSanskritiDonation() {
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Image
-                  src="./logo.jpeg"
+                  src="/donate-radha/logo.jpeg"
                   alt="Heart"
                   width={48} // increased from 24
                   height={48}
@@ -132,7 +132,7 @@ export default function GauSanskritiDonation() {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <Image
-                  src="./DSC08481.jpg"
+                  src="/donate-radha/DSC08481.jpg"
                   alt="Cow care at Gau Sanskriti"
                   width={600}
                   height={400}
@@ -250,28 +250,28 @@ export default function GauSanskritiDonation() {
 
               <div className="grid grid-cols-2 gap-4">
                 <Image
-                  src="./DSC08479.jpg"
+                  src="/donate-radha/DSC08479.jpg"
                   alt="Cow being fed grass"
                   width={300}
                   height={200}
                   className="rounded-lg object-cover"
                 />
                 <Image
-                  src="./DSC08478.jpg"
+                  src="/donate-radha/DSC08478.jpg"
                   alt="Fresh grass preparation"
                   width={300}
                   height={200}
                   className="rounded-lg object-cover"
                 />
                 <Image
-                  src="./DSC08476.jpg"
+                  src="/donate-radha/DSC08476.jpg"
                   alt="Fodder distribution"
                   width={300}
                   height={200}
                   className="rounded-lg object-cover"
                 />
                 <Image
-                  src="./DSC08431.jpg"
+                  src="/donate-radha/DSC08431.jpg"
                   alt="Cow care and feeding"
                   width={300}
                   height={200}
@@ -401,7 +401,7 @@ export default function GauSanskritiDonation() {
               <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative">
                   <Image
-                    src="./DSC08426.jpg"
+                    src="/donate-radha/DSC08426.jpg"
                     alt="Medical care for cows"
                     width={400}
                     height={250}
@@ -418,7 +418,7 @@ export default function GauSanskritiDonation() {
               <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative">
                   <Image
-                    src="./DSC08425.jpg"
+                    src="/donate-radha/DSC08425.jpg"
                     alt="Feeding program"
                     width={400}
                     height={250}
@@ -435,7 +435,7 @@ export default function GauSanskritiDonation() {
               <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative">
                   <Image
-                    src="./DSC08422.jpg"
+                    src="/donate-radha/DSC08422.jpg"
                     alt="Shelter construction"
                     width={400}
                     height={250}
