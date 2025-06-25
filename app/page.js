@@ -46,11 +46,11 @@ export default function GauSanskritiDonation() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-red-600 text-white">
-        <div className="container mx-auto px-4">
+      <header className="">
+        <div className="mx-auto w-full">
           {/* Top contact bar */}
-          <div className="flex flex-col md:flex-row justify-between items-center py-2 text-sm border-b border-red-500">
-            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
+          <div className="bg-red-600 text-white flex flex-col md:flex-row justify-between items-start md:items-center py-4 text-sm border-b border-red-500 px-5">
+            <div className="flex flex-col md:flex-row items-start md:items-center space-y-2 md:space-y-0 md:space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
                 <span>+91 9319621494</span>
@@ -64,25 +64,26 @@ export default function GauSanskritiDonation() {
                 <span>495A, Sector 2, Block A, Patwari, Greater Noida, Uttar Pradesh (201307)</span>
               </div>
             </div>
-            <div className="flex space-x-3">
+            <div className="flex space-x-3 items-start md:items-center">
               <Facebook className="w-4 h-4 cursor-pointer hover:text-red-200" />
               <Twitter className="w-4 h-4 cursor-pointer hover:text-red-200" />
             </div>
           </div>
 
           {/* Navigation */}
-          <nav className="flex flex-col md:flex-row justify-between items-center py-4">
+          <nav className="bg-white text-[rgb(115,111,111)] flex flex-col md:flex-row justify-between items-center py-4 px-4">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Image
-                  src="/logo.jpeg" // relative to /public folder
+                  src="/logo.jpeg"
                   alt="Heart"
-                  width={24} // matches w-6 (6 * 4px = 24px)
-                  height={24} // matches h-6
-                  className="w-6 h-6"
+                  width={48} // increased from 24
+                  height={48}
+                  className="w-12 h-12" // Tailwind class to match (12 × 4px = 48px)
                 />
+
               </div>
-              <h1 className="text-2xl font-bold">Gau Sanskriti</h1>
+              <h1 className="text-2xl font-extrabold">Gau Sanskriti</h1>
             </div>
 
           </nav>
@@ -117,13 +118,13 @@ export default function GauSanskritiDonation() {
                 >
                   Donate Now
                 </Button>
-                <Button
+                {/* <Button
                   size="lg"
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-teal-600"
                 >
                   Learn More
-                </Button>
+                </Button> */}
               </div>
             </div>
 
