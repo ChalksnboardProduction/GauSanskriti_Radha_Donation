@@ -305,7 +305,7 @@ export default function GauSanskritiDonation() {
   <div className="bg-white p-3 rounded border-2 border-dashed border-orange-300">
     <div className="w-32 h-32 mx-auto mb-2">
       <img
-        src="/pay.jpg"
+        src="/donate-radha/pay.jpg"
         alt="SBI QR Code for Gau Sanskriti"
         className="w-full h-full object-contain rounded"
       />
