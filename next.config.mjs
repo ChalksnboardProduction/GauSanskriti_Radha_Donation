@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/donate-radha',
   output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
